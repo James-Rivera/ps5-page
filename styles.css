@@ -22,7 +22,7 @@
 
 .section-1 {
     position: relative;
-    background-image: url('images/Shape.png');
+    background: linear-gradient(96deg, #568BD7 -17.08%, #7B94B7 17.27%, #4A678F 31.21%, #092C5C 68.28%);
     background-repeat: no-repeat;
     background-size: cover;  
     width: auto;
@@ -34,6 +34,18 @@
 .object {
     width: 100%;
     height: 100%;
+    animation: fadeInUp 2.0s ease-out;
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .text {
@@ -42,6 +54,18 @@
     left: 8%;
     color: white;
     z-index: 20;
+    animation: textFadeInUp 1.8s ease-out;
+}
+
+@keyframes textFadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .controller-image{
