@@ -14,7 +14,7 @@
 
 .hero{
     position: relative;
-    background-image: url('background.jpg');
+    background-image: url('images/Background.jpg');
     background-repeat: no-repeat;
     background-size: cover;  
     height: 120vh;
@@ -22,7 +22,7 @@
 
 .section-1 {
     position: relative;
-    background-image: url('Shape.png');
+    background-image: url('images/Shape.png');
     background-repeat: no-repeat;
     background-size: cover;  
     width: auto;
@@ -55,7 +55,7 @@
 }
 
 .text-wrapper {
-    width: 100%; /* Controls the width of the text area */
+    width: 100%; 
 }
 
 .section-description{
